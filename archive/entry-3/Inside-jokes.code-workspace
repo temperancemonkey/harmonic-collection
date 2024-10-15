@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../blueshapes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "blueshapes"
+	}
+}
