@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="icon" type="img/x-icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="getit">
+    <h1>Get It?</h1>
+</div>
+
+<div class="ornaments">
+    <ul class="list">
+        <p class="Serenity">Serenity, more like John F Kennedy</p>
+        <p class="WMI">WMIBIBOMELW</p>
+        <p class="Risk">Risk it for the Brisket</p>
+        <p class="blender">Of course I know blender</p>
+    </ul>
+</div>
+
+
+<!-- BOOK CODE -->
+ <input type="checkbox" id="checkbox-cover">
+    <input type="checkbox" id="checkbox-page1">
+    <input type="checkbox" id="checkbox-page2">
+    <input type="checkbox" id="checkbox-page3">
+
+<div class="book">
+        <div class="cover">
+            <label for="checkbox-cover"></label>
+        </div>
+
+        <div class="page" id="page1">
+            <div class="front-page">
+                <p>Serenity, more like John F Kennedy</p>
+                <label class="next" for="checkbox-page1"><i class="fas fa-chevron-right"></i></label>
+            </div>
+        </div>
+
+    <div class="page" id="page2">
+        <div class="front-page">
+            <h2>Page 2</h2>
+            <p>WMIBIBOMELW</p>
+            <label class="next" for="checkbox-page2"><i class="fas fa-chevron-left"></i></label>
+        </div>
+        <div class="back-page">
+            <img src="DTTRTA.jpg">
+            <label class="prev" for="checkbox-page2"><i class="fas fa-chevron-left"></i></label>
+        </div>
+    </div>
+
+    <div class="page" id="page3">
+        <div class="front-page">
+            <h2>Risk it for the Brisket</h2>
+            <p>Whenever we J-walk, we say 'Risk it for the Brisket' as a form of good luck.</p>
+        </div>
+    </div>
+
+    <div class="back-cover"></div>
+</div>
+
+
+
+   
+</body>
+</html>
