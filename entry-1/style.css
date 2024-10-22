@@ -138,62 +138,14 @@ input{
 }
 
 .front-page{
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
     box-sizing: border-box;
     padding: 1rem;
-}
-
-.Riskit{
-    font-family: "Righteous", sans-serif;
-    font-size: 55px;
-    margin-left: 80%;
-}
-
-.Riskit:hover{
-    color: white;
-}
-
-.it{
-    font-family: "Righteous", sans-serif;
-    margin-left: 70%;
-    font-size: 55px;
-}
-
-.it:hover{
-    color: white;
-}
-
-.for{
-    font-family: "Righteous", sans-serif;
-    font-size: 55px;
-    margin-left: 60%;
-}
-
-.for:hover{
-    color: white;
-}
-
-.the{
-    font-family: "Righteous", sans-serif;
-    font-size: 55px;
-    margin-left: 55%;
-}
-
-.the:hover{
-    color: white;
-}
-
-.Brisket{
-    font-family: "Righteous", sans-serif;
-    font-size: 55px;
-    margin-left: 30%;
-}
-
-.Brisket:hover{
-    color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 .back-page{
@@ -230,11 +182,141 @@ input{
 #page2{
     z-index: 2;
     background-image: url(serenitycover.png);
-    background-size: cover;
 }
 
 #page3{
     z-index: 1;
+    background-image: url(april.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+
+
+
+.doubleu{
+    font-family: "Righteous", sans-serif;
+    font-size: 80px;
+    margin-top: 20%;
+    color: cornflowerblue;
+}
+
+.doubleu:hover{
+    font-size: 100px;
+}
+
+.em{
+    font-family: "Righteous", sans-serif;
+    font-size: 80px;
+    margin-top: 30%;
+    color: crimson;
+
+}
+
+.em:hover{
+    font-size: 100px;
+}
+
+.eye{
+    font-family: "Righteous", sans-serif;
+    font-size: 80px;
+    margin-top: 40%;
+    color: burlywood;
+}
+
+.eye:hover{
+    font-size: 100px;
+}
+
+.bee{
+    font-family: "Righteous", sans-serif;
+    font-size: 80px;
+    margin-top: 50%;
+    color: cornflowerblue;
+}
+
+.bee:hover{
+    font-size: 100px;
+}
+
+.I{
+    font-family: "Righteous", sans-serif;
+    font-size: 80px;
+    margin-top: 60%;
+    color: crimson;
+}
+
+.I:hover{
+    font-size: 100px;
+}
+
+.B{
+    font-family: "Righteous", sans-serif;
+    font-size: 80px;
+    margin-top: 50%;
+    color: burlywood;
+}
+
+.B:hover{
+    font-size: 100px;
+}
+
+.oh{
+    font-family: "Righteous", sans-serif;
+    font-size: 80px;
+    margin-top: 40%;
+    color: cornflowerblue;
+}
+
+.oh:hover{
+    font-size: 100px;
+}
+
+.M{
+    font-family: "Righteous", sans-serif;
+    font-size: 80px;
+    margin-top: 30%;
+    color: crimson;
+}
+
+.M:hover{
+    font-size: 100px;
+}
+
+.ee{
+    font-family: "Righteous", sans-serif;
+    font-size: 80px;
+    margin-top: 20%;
+    color: burlywood;
+}
+
+.ee:hover{
+    font-size: 100px;
+}
+
+.el{
+    font-family: "Righteous", sans-serif;
+    font-size: 80px;
+    margin-top: 10%;
+    color: cornflowerblue;
+}
+
+.el:hover{
+    font-size: 100px;
+}
+
+.W{
+    font-family: "Righteous", sans-serif;
+    font-size: 80px;
+    margin-top: 5%;
+    color: crimson;
+}
+
+.W:hover{
+    font-size: 100px;
 }
 
 #checkbox-cover:checked ~ .book{
