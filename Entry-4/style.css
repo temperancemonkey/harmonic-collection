@@ -1,128 +1,188 @@
+
+
+
 body{
-    font-family: "Averia Serif Libre", serif;
-    background-color: azure;
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 
-.book{
-    width: 650px;
-    height: 750px;
-    position: relative;
-    transition-duration: 1s;
-    perspective: 1500;
 
-}
-
-input{
-    display: none;
-}
-
-.cover, .back-cover{
-    background-color: green;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 0 5px rgb(41, 41, 41);
+.humour{
+    position: inline-block;
     display: flex;
+    font-family: "Caprasimo", serif;
+    position: fixed;
     align-items: center;
     justify-content: center;
-    transform-origin: center left;
+  }
+
+.H:hover{
+    color: red;
 }
 
-.cover{
-    position: absolute;
-    z-index: 4;
-    transition: transform 1s;
+.H{
+    text-decoration: none;
+    font-size: 135px;
+    color: black;
 }
 
-.cover label{
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
+.U:hover{
+    color: orange;
 }
 
-.back-cover{
-    position: relative;
-    z-index: -1;
+.U{
+    text-decoration: none;
+    font-size: 135px;
+    color: black;
 }
 
-.page{
-    position: absolute;
-    background-color: white;
-    width: 630px;
-    height: 730px;
-    margin-top: 10px;
-    transform-origin: left;
-    transform-style: preserve-3d;
-    transform: rotateY(0deg);
-    transition-duration: 1.5s;
+.M:hover{
+    color: yellow;
 }
 
-.page img{
-    width: 100%;
-    height: 100%;
+.M{
+    text-decoration: none;
+    font-size: 135px;
+    color: black;
 }
 
-.front-page{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    box-sizing: border-box;
-    padding: 1rem;
+.O:hover{
+    color: green;
 }
 
-.back-page{
-    transform: rotateY(180deg);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    z-index: 99;
+.O{
+    text-decoration: none;
+    font-size: 135px;
+    color: black;
 }
 
-.next, .prev{
-    position: absolute;
-    bottom: 1em;
-    cursor: pointer;
+.U2:hover{
+    color: blue;
 }
 
-.next{
-    right: 1em;
+.U2{
+    text-decoration: none;
+    font-size: 135px;
+    color: black;
 }
 
-.prev{
-    left: 1em;
+.R:hover{
+    color: purple;
 }
 
-#page1{
+.R{
+    text-decoration: none;
+    font-size: 135px;
+    color: black;
+}
 
-    z-index: 3;
+.period:hover{
+    color: red;
+}
+
+.period{
+    text-decoration: none;
+    font-size: 135px;
+    color: black;
 }
 
 
 
-#checkbox-cover:checked ~ .book{
-    transform: translateX(200px);
-}
-
-#checkbox-cover:checked ~ .book .cover{
-    transition: transform 1.5s, z-index 0.5s 0.5s;
-    transform: rotateY(-180deg);
-    z-index: 1;
-}
-
-#checkbox-cover:checked ~ .book .page{
-    box-shadow: 0 0 3px rgb(99,98,98);
-}
-
-#checkbox-page1:checked ~ .book #page1{
-    transform: rotateY(-180deg);
+.backgroundimg{
+    display: flex;
+    position: absolute fixed;
+    margin-bottom: -110%;
     z-index: 2;
+}
+
+@media (max-width: 1125px){
+    .humour{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .H{
+        color: black;
+        font-size: 65px;
+    }
+    
+    .H:hover{
+        color: red;
+    }
+    
+    .U{
+        color: black;
+        font-size: 65px;
+    }
+    
+    .U:hover{
+        color: orange;
+
+    }
+    
+    .M{
+        color: black;
+        font-size: 65px;
+    }
+    
+    .M:hover{
+        color: yellow;
+    }
+    
+    .O{
+        color: black;
+        font-size: 65px;
+    }
+    
+    .O:hover{
+        color: green;
+    }
+    
+    .U2{
+        color: black;
+        font-size: 65px;
+    }
+    
+    .U2:hover{
+        color: blue;
+    }
+    
+    .R{
+        color: black;
+        font-size: 65px;
+    }
+    
+    .R:hover{
+        color: purple;
+    }
+    
+    .period{
+        color: black;
+        font-size: 65px;
+    }
+    
+    .period:hover{
+        color: red;
+    }
+    
+    .backgroundimg{
+        display: flex;
+        position: absolute fixed;
+        margin-bottom: -350%;
+        z-index: 2;
+    }
+    
+    
+    
+    
+    
+    
 }
 
